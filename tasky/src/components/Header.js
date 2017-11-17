@@ -8,7 +8,7 @@ export default () => {
         <Link
           to="/settings"
           className="brand-logo right"
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer", coloe: 'blue' }}
         >
           <i className="material-icons">settings</i>
         </Link>
