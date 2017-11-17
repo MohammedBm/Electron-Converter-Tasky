@@ -5,6 +5,7 @@ const TimerTray = require('./app/timer_tray')
 const { app, BrowserWindow, Tray } = electron;
 
 let mainWindow;
+let tray;
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
