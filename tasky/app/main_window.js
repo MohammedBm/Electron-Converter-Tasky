@@ -10,7 +10,7 @@ class MainWindow extends BrowserWindow {
       width: 300,
       frame: false,
       resizable: false,
-      show: false,
+      show: false,  
       webPreferences: { backgroundThrottling: false }
     }) 
 
