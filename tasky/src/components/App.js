@@ -48,7 +48,7 @@ class App extends Component {
   };
 
   updateTrayText = title => {
-    ipcRenderer.send("update-timer", title);
+    ipcRenderer.send("update-timer", w);
   };
 
   timerHasExpired = () => {
